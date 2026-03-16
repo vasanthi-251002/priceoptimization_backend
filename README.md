@@ -1,41 +1,3 @@
-# Price Optimization Tool
-
-A full-stack web application built with **React.js** (frontend) + **Django REST Framework** (backend) + **SQLite/PostgreSQL** (database).
-
----
-
-## Project Structure
-
-```
-price-optimization/
-├── backend/                  # Django REST API
-│   ├── manage.py
-│   ├── requirements.txt
-│   ├── price_tool/           # Django project settings & URLs
-│   ├── authentication/       # Custom User model + JWT auth
-│   └── products/             # Products, Categories, Demand Forecast, Pricing APIs
-│
-└── frontend/                 # React.js app
-    ├── package.json
-    └── src/
-        ├── api/              # Axios instance + API calls
-        ├── context/          # AuthContext (JWT state)
-        ├── pages/            # LoginPage, RegisterPage, HomePage, ProductsPage, PricingOptimizationPage
-        └── components/       # Layout, ProductModal, DemandForecastModal, DeleteConfirmModal
-```
-
----
-
-## Setup Instructions
-
-### Prerequisites
-- Python ≥ 3.9
-- Node.js ≥ 16.x
-- npm or yarn
-- Git
-
----
-
 ### 1. Backend Setup (Django)
 
 ```bash
@@ -73,19 +35,7 @@ Backend runs at: **http://localhost:8000**
 
 ---
 
-### 2. Frontend Setup (React)
 
-Open a **new terminal**:
-
-```bash
-# Navigate to frontend
-cd price-optimization/frontend
-
-# Install dependencies
-npm install
-
-# Start the dev server
-npm start
 ```
 
 Frontend runs at: **http://localhost:3000**
